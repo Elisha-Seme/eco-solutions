@@ -168,6 +168,70 @@ export default function ServicesPage() {
         </div>
       </section>
 
+      {/* ── THE MODEL ── */}
+      <section style={{ backgroundColor: "#0D1F2D" }}>
+        <div className="wrap section">
+          <div style={{ textAlign: "center", marginBottom: "3.5rem" }}>
+            <div style={{ display: "flex", gap: "0.75rem", alignItems: "center", justifyContent: "center", marginBottom: "1rem" }}>
+              <div className="rule-teal" style={{ marginBottom: 0, backgroundColor: "#4DBCCF" }} />
+              <p className="eyebrow" style={{ marginBottom: 0, color: "#4DBCCF" }}>How We Work</p>
+              <div className="rule-teal" style={{ marginBottom: 0, backgroundColor: "#4DBCCF" }} />
+            </div>
+            <h2
+              style={{
+                fontSize: "clamp(1.75rem, 3vw, 2.5rem)",
+                fontWeight: 800,
+                letterSpacing: "-0.03em",
+                color: "#FFFFFF",
+                lineHeight: 1.1,
+              }}
+            >
+              From first enquiry to a well-run site
+            </h2>
+          </div>
+          <div className="model-steps">
+            {[
+              {
+                step: "01",
+                title: "Enquiry",
+                body: "Tell us about your property — type, size, and the service you need. We respond within one business day.",
+              },
+              {
+                step: "02",
+                title: "Site Scoping",
+                body: "We visit your site, assess the scope, and recommend the right service package with a clear, itemised quote.",
+              },
+              {
+                step: "03",
+                title: "Team Deployment",
+                body: "A trained, uniformed local team is assigned to your site with a named supervisor and a confirmed schedule.",
+              },
+              {
+                step: "04",
+                title: "Ongoing Service",
+                body: "Regular service delivery, monthly reporting, and a dedicated account contact — one team, one standard.",
+              },
+            ].map((item) => (
+              <div
+                key={item.step}
+                style={{
+                  padding: "2rem 1.75rem",
+                  backgroundColor: "rgba(255,255,255,0.04)",
+                  border: "1px solid rgba(255,255,255,0.08)",
+                  borderRadius: "18px",
+                }}
+              >
+                <div style={{ fontSize: "2.5rem", fontWeight: 800, color: "#4DBCCF", lineHeight: 1, marginBottom: "1rem", opacity: 0.6 }}>
+                  {item.step}
+                </div>
+                <h3 style={{ fontSize: "1rem", fontWeight: 700, color: "#FFFFFF", marginBottom: "0.65rem" }}>{item.title}</h3>
+                <p style={{ fontSize: "0.875rem", lineHeight: 1.75, color: "rgba(255,255,255,0.6)", margin: 0 }}>{item.body}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* ── SERVICE BLOCKS ── */}
       {services.map((s, i) => {
         const isEven = i % 2 === 0;
@@ -312,8 +376,7 @@ export default function ServicesPage() {
       <section style={{ backgroundColor: "#0B7A8A" }}>
         <div className="wrap" style={{ paddingTop: "4.5rem", paddingBottom: "4.5rem" }}>
           <div
-            style={{ display: "flex", flexDirection: "column", gap: "2rem", alignItems: "flex-start" }}
-            className="md:flex-row md:items-center md:justify-between"
+            className="cta-row"
           >
             <div style={{ maxWidth: "560px" }}>
               <p style={{ fontSize: "0.72rem", letterSpacing: "0.16em", textTransform: "uppercase", color: "rgba(255,255,255,0.7)", fontWeight: 700, marginBottom: "0.5rem" }}>

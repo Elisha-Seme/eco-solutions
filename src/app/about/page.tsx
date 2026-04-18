@@ -351,7 +351,7 @@ export default function AboutPage() {
               <Link href="/contact" className="btn-primary">Work With Us</Link>
             </div>
 
-            <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "1rem" }}>
+            <div className="two-col-photos">
               <div
                 style={{
                   borderRadius: "18px",
@@ -390,12 +390,263 @@ export default function AboutPage() {
         </div>
       </section>
 
+      {/* ── PHOTO GALLERY ── */}
+      <section style={{ backgroundColor: "#FAF9F7" }}>
+        <div className="wrap section">
+          <div style={{ textAlign: "center", marginBottom: "3rem" }}>
+            <div style={{ display: "flex", gap: "0.75rem", alignItems: "center", justifyContent: "center", marginBottom: "1rem" }}>
+              <div className="rule-teal" style={{ marginBottom: 0 }} />
+              <p className="eyebrow" style={{ marginBottom: 0 }}>From the Ground</p>
+              <div className="rule-teal" style={{ marginBottom: 0 }} />
+            </div>
+            <h2
+              style={{
+                fontSize: "clamp(1.75rem, 3vw, 2.5rem)",
+                fontWeight: 800,
+                letterSpacing: "-0.03em",
+                color: "#0F1923",
+                lineHeight: 1.1,
+              }}
+            >
+              Our teams, our sites, our work
+            </h2>
+          </div>
+          <div className="gallery-grid">
+            {[
+              { src: "/IMG-20250526-WA0022.jpg", alt: "ECO Solutions cleaning team at a residential building" },
+              { src: "/IMG-20250526-WA0017.jpg", alt: "Uniformed Pearl ECO Solutions team members" },
+              { src: "/IMG-20250526-WA0020.jpg", alt: "Grounds maintenance crew at an estate" },
+              { src: "/IMG-20250526-WA0008.jpg", alt: "ECO Solutions operative cleaning an apartment" },
+              { src: "/worker-residential.webp", alt: "Worker at a Nairobi residential property" },
+              { src: "/waste-truck.webp", alt: "ECO Solutions waste management vehicle" },
+              { src: "/IMG-20250210-WA0013.jpg", alt: "Crew ready for a specialized cleaning assignment" },
+              { src: "/IMG-20250526-WA0017.jpg", alt: "Team assembled and ready for a facility assignment" },
+            ].map((img, i) => (
+              <div
+                key={i}
+                style={{
+                  borderRadius: "14px",
+                  overflow: "hidden",
+                  aspectRatio: i === 0 || i === 4 ? "4/5" : "1/1",
+                  position: "relative",
+                  boxShadow: "0 8px 24px rgba(15,25,35,0.1)",
+                }}
+              >
+                <Image
+                  src={img.src}
+                  alt={img.alt}
+                  fill
+                  style={{ objectFit: "cover", objectPosition: "center top" }}
+                />
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ── COMMUNITY TESTIMONIAL ── */}
+      <section style={{ backgroundColor: "#0D1F2D" }}>
+        <div className="wrap section">
+          <div className="two-col-start">
+            <div>
+              <div style={{ display: "flex", gap: "0.75rem", alignItems: "center", marginBottom: "1.25rem" }}>
+                <div className="rule-teal" style={{ marginBottom: 0, backgroundColor: "#4DBCCF" }} />
+                <p className="eyebrow" style={{ marginBottom: 0, color: "#4DBCCF" }}>Community Impact</p>
+              </div>
+              <h2
+                style={{
+                  fontSize: "clamp(1.7rem, 3vw, 2.4rem)",
+                  fontWeight: 800,
+                  letterSpacing: "-0.03em",
+                  color: "#FFFFFF",
+                  lineHeight: 1.12,
+                  marginBottom: "2rem",
+                }}
+              >
+                Real jobs. Real families. Real communities.
+              </h2>
+              <blockquote
+                style={{
+                  borderLeft: "3px solid #4DBCCF",
+                  paddingLeft: "1.5rem",
+                  marginBottom: "2rem",
+                }}
+              >
+                <p
+                  style={{
+                    fontSize: "1.05rem",
+                    lineHeight: 1.8,
+                    color: "rgba(255,255,255,0.85)",
+                    fontStyle: "italic",
+                    marginBottom: "1rem",
+                  }}
+                >
+                  "Before Pearl ECO Solutions, I was doing casual work with no
+                  contract and no certainty. Now I have a uniform, a schedule,
+                  and I know what I earn every month. That changes everything
+                  for my family."
+                </p>
+                <footer style={{ fontSize: "0.82rem", color: "#4DBCCF", fontWeight: 600 }}>
+                  Team member, residential estate contract
+                </footer>
+              </blockquote>
+              <p style={{ fontSize: "0.9rem", lineHeight: 1.85, color: "rgba(255,255,255,0.65)", margin: 0 }}>
+                Every service contract we sign translates directly into stable
+                employment for local residents. Training, formal contracts, and
+                consistent pay transform casual work into livelihoods.
+              </p>
+            </div>
+
+            <div className="two-col-photos">
+              {[
+                { src: "/IMG-20250526-WA0017.jpg", alt: "Team member on site" },
+                { src: "/IMG-20250526-WA0022.jpg", alt: "Cleaning operative at work" },
+                { src: "/IMG-20250526-WA0020.jpg", alt: "Grounds crew at an estate" },
+                { src: "/IMG-20250526-WA0008.jpg", alt: "ECO Solutions worker in uniform" },
+              ].map((img, i) => (
+                <div
+                  key={i}
+                  style={{
+                    borderRadius: "14px",
+                    overflow: "hidden",
+                    aspectRatio: "1/1",
+                    position: "relative",
+                    boxShadow: "0 8px 24px rgba(0,0,0,0.25)",
+                  }}
+                >
+                  <Image
+                    src={img.src}
+                    alt={img.alt}
+                    fill
+                    style={{ objectFit: "cover", objectPosition: "center top" }}
+                  />
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ── SUSTAINABILITY ── */}
+      <section style={{ backgroundColor: "#FFFFFF" }}>
+        <div className="wrap section">
+          <div style={{ display: "flex", gap: "0.75rem", alignItems: "center", marginBottom: "1rem" }}>
+            <div className="rule-teal" style={{ marginBottom: 0 }} />
+            <p className="eyebrow" style={{ marginBottom: 0 }}>Sustainability</p>
+          </div>
+          <h2
+            style={{
+              fontSize: "clamp(1.75rem, 3vw, 2.5rem)",
+              fontWeight: 800,
+              letterSpacing: "-0.03em",
+              color: "#0F1923",
+              marginBottom: "1rem",
+              lineHeight: 1.1,
+              maxWidth: "560px",
+            }}
+          >
+            Eco-responsible operations, every day
+          </h2>
+          <p style={{ fontSize: "0.96rem", lineHeight: 1.85, color: "#4B5563", marginBottom: "3rem", maxWidth: "560px" }}>
+            Our name reflects our commitment. We structure waste collection
+            responsibly, minimise chemical use, and train teams to protect the
+            environments they work in.
+          </p>
+
+          <div className="two-col-cards" style={{ marginBottom: "3.5rem" }}>
+            {[
+              {
+                stat: "0",
+                label: "Toxic chemicals used",
+                body: "All cleaning products selected for low environmental impact and resident safety.",
+              },
+              {
+                stat: "100%",
+                label: "Local recruitment",
+                body: "Zero commuter transport footprint. Our workers live in the communities they serve.",
+              },
+              {
+                stat: "3-stream",
+                label: "Waste segregation",
+                body: "Organic, recyclable, and general waste separated at point of collection on every contract.",
+              },
+              {
+                stat: "Low",
+                label: "Waste operations target",
+                body: "Equipment shared across contracts, supply waste minimised, and consumables tracked per site.",
+              },
+            ].map((item) => (
+              <div
+                key={item.label}
+                style={{
+                  padding: "1.75rem",
+                  backgroundColor: "#FAF9F7",
+                  border: "1px solid #E2E8F0",
+                  borderRadius: "18px",
+                }}
+              >
+                <div style={{ fontSize: "2rem", fontWeight: 800, color: "#0B7A8A", lineHeight: 1, marginBottom: "0.4rem" }}>
+                  {item.stat}
+                </div>
+                <div style={{ fontSize: "0.875rem", fontWeight: 700, color: "#0F1923", marginBottom: "0.5rem" }}>{item.label}</div>
+                <p style={{ fontSize: "0.82rem", lineHeight: 1.7, color: "#4B5563", margin: 0 }}>{item.body}</p>
+              </div>
+            ))}
+          </div>
+
+          <div>
+            <p style={{ fontSize: "0.8rem", fontWeight: 700, letterSpacing: "0.1em", textTransform: "uppercase", color: "#4B5563", marginBottom: "1.25rem" }}>
+              Aligned with UN Sustainable Development Goals
+            </p>
+            <div style={{ display: "flex", gap: "1rem", flexWrap: "wrap" }}>
+              {[
+                { num: "3", label: "Good Health & Well-Being" },
+                { num: "8", label: "Decent Work & Economic Growth" },
+                { num: "11", label: "Sustainable Cities" },
+                { num: "13", label: "Climate Action" },
+              ].map((sdg) => (
+                <div
+                  key={sdg.num}
+                  style={{
+                    display: "flex",
+                    alignItems: "center",
+                    gap: "0.6rem",
+                    padding: "0.6rem 1rem",
+                    backgroundColor: "#EBF6F8",
+                    borderRadius: "999px",
+                    border: "1px solid rgba(11,122,138,0.2)",
+                  }}
+                >
+                  <span
+                    style={{
+                      width: "28px",
+                      height: "28px",
+                      borderRadius: "6px",
+                      backgroundColor: "#0B7A8A",
+                      color: "#FFFFFF",
+                      fontSize: "0.75rem",
+                      fontWeight: 800,
+                      display: "flex",
+                      alignItems: "center",
+                      justifyContent: "center",
+                      flexShrink: 0,
+                    }}
+                  >
+                    {sdg.num}
+                  </span>
+                  <span style={{ fontSize: "0.78rem", fontWeight: 600, color: "#0F1923" }}>{sdg.label}</span>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* ── FUNDER CALLOUT ── */}
       <section style={{ backgroundColor: "#0B7A8A" }}>
         <div className="wrap" style={{ paddingTop: "4rem", paddingBottom: "4rem" }}>
           <div
-            style={{ display: "flex", flexDirection: "column", gap: "2rem", alignItems: "flex-start" }}
-            className="md:flex-row md:items-center md:justify-between"
+            className="cta-row"
           >
             <div style={{ maxWidth: "580px" }}>
               <p className="eyebrow" style={{ marginBottom: "0.75rem", color: "rgba(255,255,255,0.7)" }}>

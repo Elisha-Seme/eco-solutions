@@ -476,6 +476,45 @@ a { color: inherit; }
   }
 }
 
+/* ---- 2-col photo mini-grid (collapses to 1 on very small screens) ---- */
+.two-col-photos {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.85rem;
+}
+@media (min-width: 480px) {
+  .two-col-photos {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* ---- CTA flex row (stacks on mobile, row on md) ---- */
+.cta-row {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  align-items: flex-start;
+}
+@media (min-width: 768px) {
+  .cta-row {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+/* ---- Hero responsive padding ---- */
+.hero-pad {
+  padding-top: 6rem;
+  padding-bottom: 3.5rem;
+}
+@media (min-width: 768px) {
+  .hero-pad {
+    padding-top: 8rem;
+    padding-bottom: 5rem;
+  }
+}
+
 /* ---- SDG badge ---- */
 .sdg-badge {
   display: inline-flex;
