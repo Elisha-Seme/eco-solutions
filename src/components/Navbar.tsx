@@ -46,10 +46,10 @@ export default function Navbar() {
         {/* Wordmark */}
         <Link href="/" style={{ textDecoration: "none" }}>
           <span style={{ fontWeight: 800, fontSize: "1.05rem", color: transparent ? "#FFFFFF" : "#0F1923", letterSpacing: "0.06em", transition: "color 0.3s" }}>
-            ECO SOLUTIONS
+            PEARL ECO
           </span>
-          <span style={{ fontWeight: 400, fontSize: "0.65rem", color: "#4DBCCF", letterSpacing: "0.18em", marginLeft: "0.35rem" }}>
-            LTD
+          <span style={{ fontWeight: 400, fontSize: "0.8rem", color: "#4DBCCF", letterSpacing: "0.12em", marginLeft: "0.35rem" }}>
+            SOLUTIONS
           </span>
         </Link>
 

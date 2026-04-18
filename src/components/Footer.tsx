@@ -83,14 +83,14 @@ export default function Footer() {
           <div>
             <div style={{ marginBottom: "0.85rem" }}>
               <span style={{ fontWeight: 800, fontSize: "1.05rem", letterSpacing: "0.08em", color: "#FFFFFF" }}>
-                ECO SOLUTIONS
+                PEARL ECO
               </span>
-              <span style={{ fontSize: "0.64rem", letterSpacing: "0.2em", color: "#4DBCCF", marginLeft: "0.35rem", fontWeight: 500 }}>
-                LTD
+              <span style={{ fontSize: "0.8rem", letterSpacing: "0.12em", color: "#4DBCCF", marginLeft: "0.35rem", fontWeight: 500 }}>
+                SOLUTIONS
               </span>
             </div>
             <p style={{ fontSize: "0.855rem", lineHeight: 1.8, color: "rgba(255,255,255,0.55)", margin: 0, maxWidth: "240px" }}>
-              Nairobi-based facility services for cleaner properties and stronger communities. Formerly Pearl Cleaning Services, est. 2013.
+              Professional facility services for residential estates, corporates, malls, institutions, and industrial sites across Nairobi. Est. 2013.
             </p>
           </div>
 
@@ -202,10 +202,10 @@ export default function Footer() {
           }}
         >
           <p style={{ fontSize: "0.78rem", color: "rgba(255,255,255,0.3)", margin: 0 }}>
-            &copy; {new Date().getFullYear()} ECO Solutions LTD. All rights reserved.
+            &copy; {new Date().getFullYear()} Pearl ECO Solutions. All rights reserved.
           </p>
           <p style={{ fontSize: "0.78rem", color: "rgba(255,255,255,0.3)", margin: 0 }}>
-            ECO Solutions LTD is the current trading brand. Pearl Cleaning Services remains part of the company identity.
+            Nairobi, Kenya
           </p>
         </div>
       </div>

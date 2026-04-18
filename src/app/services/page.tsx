@@ -136,12 +136,12 @@ export default function ServicesPage() {
               maxWidth: "680px",
             }}
           >
-            Six services. One mission. Cleaner properties, stronger communities.
+            Six services for every type of client.
           </h1>
           <p style={{ fontSize: "1.05rem", lineHeight: 1.8, color: "rgba(255,255,255,0.7)", maxWidth: "560px", marginBottom: "2rem" }}>
-            Every service we deliver produces two outcomes: a measurable
-            improvement in the built environment, and stable employment for
-            local workers. That dual outcome is built into how we operate.
+            We serve residential estates, corporate offices, shopping malls,
+            institutions, and industrial sites. Choose one service or let us
+            manage the full facility brief.
           </p>
           {/* Quick jump pills */}
           <div style={{ display: "flex", flexWrap: "wrap", gap: "0.6rem" }}>

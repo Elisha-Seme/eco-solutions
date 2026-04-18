@@ -11,10 +11,10 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "ECO Solutions LTD | Social Enterprise, Nairobi Kenya",
+  title: "Pearl ECO Solutions | Facility Services, Nairobi Kenya",
   description:
-    "ECO Solutions LTD is a Nairobi-based social enterprise delivering professional cleaning, grounds maintenance, waste management, and facility services. We create formal local employment while raising community living standards. Formerly Pearl Cleaning Services.",
-  keywords: "social enterprise Kenya, cleaning services Nairobi, facilities management, grounds maintenance, waste management, ECO Solutions, Pearl Cleaning Services, community employment, impact investment Kenya",
+    "Pearl ECO Solutions delivers professional cleaning, grounds maintenance, waste management, and integrated facility services for residential estates, corporates, malls, institutions, and industrial sites across Nairobi.",
+  keywords: "facility services Nairobi, cleaning services Kenya, grounds maintenance, waste management, Pearl ECO Solutions, Pearl Cleaning Services, corporate cleaning, institutional cleaning, industrial cleaning",
 };
 
 export default function RootLayout({

@@ -94,9 +94,9 @@ const revenues = [
 
 const tiers = [
   {
-    name: "Property Manager",
+    name: "Facility Client",
     badge: "Service Client",
-    description: "Looking for reliable cleaning, grounds, or waste support for residential estates and shared spaces.",
+    description: "Residential estates, corporates, malls, institutions, and industrial sites looking for reliable cleaning, grounds, or facility management.",
     cta: "Request a Quote",
     href: "/contact",
     featured: false,
@@ -165,7 +165,7 @@ export default function Home() {
           {/* Trust pill */}
           <div className="trust-pill" style={{ marginBottom: "1.5rem", display: "inline-flex" }}>
             <span className="trust-pill-dot" />
-            Nairobi social enterprise · Est. 2013
+            Pearl ECO Solutions · Nairobi · Est. 2013
           </div>
 
           {/* Headline */}
@@ -180,30 +180,23 @@ export default function Home() {
               maxWidth: "780px",
             }}
           >
-            Keeping Nairobi&apos;s Properties{" "}
-            <span
-              style={{
-                color: "#4DBCCF",
-                fontStyle: "italic",
-              }}
-            >
-              Clean,
-            </span>{" "}
+            Keeping Nairobi{" "}
+            <span style={{ color: "#4DBCCF", fontStyle: "italic" }}>Clean,</span>{" "}
             One Trained Team at a Time
           </h1>
 
           <p
             style={{
-              fontSize: "1.1rem",
-              lineHeight: 1.8,
+              fontSize: "1.05rem",
+              lineHeight: 1.75,
               color: "rgba(255,255,255,0.78)",
               marginBottom: "2.25rem",
-              maxWidth: "580px",
+              maxWidth: "560px",
             }}
           >
-            ECO Solutions LTD delivers professional cleaning, grounds
-            maintenance, waste management, and facility services for residential
-            estates, while creating formal local employment across Nairobi.
+            Professional facility services for residential estates, corporates,
+            malls, institutions, and industrial sites — delivered by trained,
+            uniformed local teams.
           </p>
 
           {/* CTAs */}
@@ -264,21 +257,17 @@ export default function Home() {
                   marginBottom: "1.25rem",
                 }}
               >
-                The problem: poorly maintained estates and invisible workers.
+                Professional facility services. Real community impact.
               </h2>
               <p style={{ fontSize: "0.96rem", lineHeight: 1.85, color: "#4B5563", marginBottom: "1rem" }}>
-                Across Nairobi&apos;s residential estates, property managers
-                struggle to find reliable service partners. Workers in the
-                cleaning and grounds sector are too often engaged informally,
-                with no contracts, no training, and no stability.
+                Pearl ECO Solutions (formerly Pearl Cleaning Services) serves
+                residential estates, corporate offices, shopping malls,
+                institutions, and industrial sites across Nairobi.
               </p>
               <p style={{ fontSize: "0.96rem", lineHeight: 1.85, color: "#4B5563", marginBottom: "2rem" }}>
-                ECO Solutions LTD (formerly Pearl Cleaning Services) was
-                built to solve both problems at once. We deliver professional
-                facility services that clients depend on, and we do it through
-                a workforce that is trained, uniformed, and formally employed.
-                Every contract we win funds more jobs. Every job reduces
-                precarious informal labour in our communities.
+                We deliver dependable cleaning, grounds, waste, and facility
+                management through trained, uniformed local teams — creating
+                formal employment in the communities we work in.
               </p>
               <div style={{ display: "flex", gap: "1rem", flexWrap: "wrap" }}>
                 <Link href="/about" className="btn-primary">Read the Full Story</Link>
@@ -650,7 +639,7 @@ export default function Home() {
                     marginBottom: "1rem",
                   }}
                 >
-                  &ldquo;Before ECO Solutions, we struggled to keep contractors accountable.
+                  &ldquo;Before Pearl ECO Solutions, we struggled to keep contractors accountable.
                   Now we have one team, one number to call, and our residents
                   notice the difference every day.&rdquo;
                 </p>
@@ -721,7 +710,7 @@ export default function Home() {
               <p style={{ fontSize: "0.95rem", lineHeight: 1.85, color: "rgba(255,255,255,0.7)", marginBottom: "2rem" }}>
                 Every hire receives structured pre-deployment training, a
                 uniform, and a formal employment contract. Many of our workers
-                experience their first formal job with ECO Solutions, a
+                experience their first formal job with Pearl ECO Solutions, a
                 responsibility we take seriously.
               </p>
 
@@ -816,7 +805,7 @@ export default function Home() {
             </h2>
             <p style={{ fontSize: "0.96rem", lineHeight: 1.8, color: "#4B5563", maxWidth: "520px", margin: "0 auto" }}>
               Whether you manage properties, fund community enterprise, or are
-              looking for formal employment, there is a path for you here.
+              looking for a job, there is a path for you here.
             </p>
           </div>
 

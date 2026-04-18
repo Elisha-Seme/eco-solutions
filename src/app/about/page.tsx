@@ -48,7 +48,7 @@ const timeline = [
   { year: "2016", title: "Expanded to Grounds Maintenance", body: "Added landscaping and grounds care, creating additional skilled roles and growing our footprint across residential estates." },
   { year: "2019", title: "Waste Management Launched", body: "Introduced environmentally responsible waste collection, addressing a critical gap in community sanitation and creating more stable employment." },
   { year: "2022", title: "Formal Staff Training Programme", body: "Launched structured pre-deployment training for all new hires, raising standards and improving employment outcomes for our workforce." },
-  { year: "2024", title: "Rebranded as ECO Solutions LTD", body: "Rebranded to reflect our grown scope and explicit commitment to eco-conscious, community-centred operations." },
+  { year: "2024", title: "Rebranded as Pearl ECO Solutions", body: "Rebranded to reflect our grown scope and explicit commitment to eco-conscious, community-centred operations." },
 ];
 
 const metrics = [
@@ -97,9 +97,9 @@ export default function AboutPage() {
             A decade of service, grounded in community.
           </h1>
           <p style={{ fontSize: "1.05rem", lineHeight: 1.8, color: "rgba(255,255,255,0.7)", maxWidth: "560px" }}>
-            From Pearl Cleaning Services to ECO Solutions LTD: ten years of
-            building trust in Nairobi one estate at a time, while creating
-            formal employment for the communities we serve.
+            From Pearl Cleaning Services to Pearl ECO Solutions: serving
+            residential estates, corporates, malls, institutions, and industrial
+            sites across Nairobi since 2013.
           </p>
         </div>
       </section>
@@ -126,22 +126,16 @@ export default function AboutPage() {
                 A social enterprise built on everyday service
               </h2>
               <p style={{ fontSize: "0.96rem", lineHeight: 1.85, color: "#4B5563", marginBottom: "1.25rem" }}>
-                ECO Solutions LTD is the evolution of Pearl Cleaning Services,
-                built over more than a decade on one foundational belief: that
-                facilities work, done well and done ethically, can improve life
-                in Nairobi residential communities in ways that go far beyond
-                a clean floor.
-              </p>
-              <p style={{ fontSize: "0.96rem", lineHeight: 1.85, color: "#4B5563", marginBottom: "1.25rem" }}>
-                We are a for-profit enterprise, and we need to be: financial
-                sustainability is what allows us to employ people, invest in
-                their training, and maintain service quality over time. But
-                profit is not the ceiling of our ambition.
+                Pearl ECO Solutions grew from Pearl Cleaning Services into a
+                full-scope facility services company serving residential estates,
+                corporate offices, shopping malls, institutions, and industrial
+                sites across Nairobi.
               </p>
               <p style={{ fontSize: "0.96rem", lineHeight: 1.85, color: "#4B5563", marginBottom: "2rem" }}>
-                Every contract we win funds more jobs. Every job reduces
-                precarious informal labour in our communities. Every space we
-                clean lowers disease risk and raises the standard of shared life.
+                We deliver dependable cleaning, grounds, waste, and facility
+                management through trained, uniformed local teams. Every
+                contract funds more jobs. Every job reduces informal precarious
+                work in our communities.
               </p>
               <Link href="/contact" className="btn-primary">Work With Us</Link>
             </div>
@@ -346,19 +340,13 @@ export default function AboutPage() {
                 Local employment is central to what we do
               </h2>
               <p style={{ fontSize: "0.95rem", lineHeight: 1.85, color: "#4B5563", marginBottom: "1.25rem" }}>
-                Creating stable, formal employment in communities that face high
-                rates of informal and precarious work is one of our primary
-                social commitments. We do not use our workforce as a footnote.
-              </p>
-              <p style={{ fontSize: "0.95rem", lineHeight: 1.85, color: "#4B5563", marginBottom: "1.25rem" }}>
-                Every new hire receives structured pre-deployment training, a
-                uniform, and a formal employment contract. We are investing in
-                people, not just filling positions.
+                Every hire receives pre-deployment training, a uniform, and a
+                formal contract. For many, Pearl ECO Solutions is their first
+                experience of formal employment.
               </p>
               <p style={{ fontSize: "0.95rem", lineHeight: 1.85, color: "#4B5563", marginBottom: "2.5rem" }}>
-                For many of our workers, ECO Solutions has been their first
-                experience of formal employment. We take that responsibility
-                seriously.
+                We recruit entirely from the communities we serve. Local
+                employment is not a footnote — it is central to why we exist.
               </p>
               <Link href="/contact" className="btn-primary">Work With Us</Link>
             </div>

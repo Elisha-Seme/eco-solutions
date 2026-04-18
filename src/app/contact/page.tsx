@@ -52,13 +52,13 @@ const contactItems = [
 
 const audienceCards = [
   {
-    title: "Property managers",
-    body: "Residential estates, managed properties, and institutions looking for cleaning, grounds, or facility management.",
+    title: "Facility clients",
+    body: "Residential estates, corporates, malls, institutions, and industrial sites looking for cleaning, grounds, waste, or full facility management.",
     Icon: Building2,
   },
   {
     title: "Funders and investors",
-    body: "Foundations and impact investors supporting community enterprise, employment growth, and sustainable operations.",
+    body: "Foundations and impact investors supporting community enterprise and formal employment creation in Nairobi.",
     Icon: Handshake,
   },
   {
@@ -129,7 +129,7 @@ export default function ContactPage() {
               maxWidth: "680px",
             }}
           >
-            Whether you manage estates, fund community enterprise, or need a job, we want to hear from you.
+            Get in touch with Pearl ECO Solutions.
           </h1>
           <p style={{ fontSize: "1.05rem", lineHeight: 1.8, color: "rgba(255,255,255,0.7)", maxWidth: "520px" }}>
             We respond to all enquiries within one business day.
