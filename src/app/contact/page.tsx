@@ -39,7 +39,7 @@ const contactItems = [
   },
   {
     label: "Location",
-    value: "Nairobi, Kenya",
+    value: "Kenya",
     href: null,
     icon: (
       <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
@@ -58,7 +58,7 @@ const audienceCards = [
   },
   {
     title: "Funders and investors",
-    body: "Foundations and impact investors supporting community enterprise and formal employment creation in Nairobi.",
+    body: "Foundations and impact investors supporting community enterprise and formal employment creation across Kenya.",
     Icon: Handshake,
   },
   {

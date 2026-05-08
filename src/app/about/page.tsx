@@ -44,7 +44,7 @@ const values = [
 ];
 
 const timeline = [
-  { year: "2013", title: "Pearl Cleaning Services Founded", body: "Founded in Nairobi with a small team of local workers, focusing on apartment cleaning and hiring from within the communities we served." },
+  { year: "2013", title: "Pearl Cleaning Services Founded", body: "Founded in Kenya with a small team of local workers, focusing on apartment cleaning and hiring from within the communities we served." },
   { year: "2016", title: "Expanded to Grounds Maintenance", body: "Added landscaping and grounds care, creating additional skilled roles and growing our footprint across residential estates." },
   { year: "2019", title: "Waste Management Launched", body: "Introduced environmentally responsible waste collection, addressing a critical gap in community sanitation and creating more stable employment." },
   { year: "2022", title: "Formal Staff Training Programme", body: "Launched structured pre-deployment training for all new hires, raising standards and improving employment outcomes for our workforce." },
@@ -54,7 +54,7 @@ const timeline = [
 const metrics = [
   { v: "50+", l: "Local jobs created", sub: "with formal contracts and training" },
   { v: "3", l: "Communities served", sub: "with active service contracts" },
-  { v: "10+", l: "Years of operation", sub: "building trust in Nairobi" },
+  { v: "10+", l: "Years of operation", sub: "building trust across Kenya" },
   { v: "100%", l: "Local recruitment", sub: "from communities we work in" },
 ];
 
@@ -99,7 +99,7 @@ export default function AboutPage() {
           <p style={{ fontSize: "1.05rem", lineHeight: 1.8, color: "rgba(255,255,255,0.7)", maxWidth: "560px" }}>
             From Pearl Cleaning Services to Pearl ECO Solutions: serving
             residential estates, corporates, malls, institutions, and industrial
-            sites across Nairobi since 2013.
+            sites across Kenya since 2013.
           </p>
         </div>
       </section>
@@ -129,7 +129,7 @@ export default function AboutPage() {
                 Pearl ECO Solutions grew from Pearl Cleaning Services into a
                 full-scope facility services company serving residential estates,
                 corporate offices, shopping malls, institutions, and industrial
-                sites across Nairobi.
+                sites across Kenya.
               </p>
               <p style={{ fontSize: "0.96rem", lineHeight: 1.85, color: "#4B5563", marginBottom: "2rem" }}>
                 We deliver dependable cleaning, grounds, waste, and facility
@@ -152,7 +152,7 @@ export default function AboutPage() {
               >
                 <Image
                   src="/worker-residential.webp"
-                  alt="ECO Solutions uniformed worker at a Nairobi residential property"
+                  alt="ECO Solutions uniformed worker at a residential property"
                   fill
                   style={{ objectFit: "cover", objectPosition: "center" }}
                 />
@@ -417,7 +417,7 @@ export default function AboutPage() {
               { src: "/IMG-20250526-WA0017.jpg", alt: "Uniformed Pearl ECO Solutions team members" },
               { src: "/IMG-20250526-WA0020.jpg", alt: "Grounds maintenance crew at an estate" },
               { src: "/IMG-20250526-WA0008.jpg", alt: "ECO Solutions operative cleaning an apartment" },
-              { src: "/worker-residential.webp", alt: "Worker at a Nairobi residential property" },
+              { src: "/worker-residential.webp", alt: "Worker at a residential property" },
               { src: "/waste-truck.webp", alt: "ECO Solutions waste management vehicle" },
               { src: "/IMG-20250210-WA0013.jpg", alt: "Crew ready for a specialized cleaning assignment" },
               { src: "/IMG-20250526-WA0017.jpg", alt: "Team assembled and ready for a facility assignment" },

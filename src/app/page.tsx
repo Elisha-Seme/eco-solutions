@@ -42,7 +42,7 @@ export default function Home() {
         <div style={{ position: "absolute", inset: 0 }}>
           <Image
             src="/worker-residential.webp"
-            alt="Pearl ECO Solutions worker at a Nairobi property"
+            alt="Pearl ECO Solutions worker at a residential property"
             fill
             priority
             style={{ objectFit: "cover", objectPosition: "center" }}
@@ -60,7 +60,7 @@ export default function Home() {
         <div className="wrap" style={{ position: "relative", paddingTop: "8rem", paddingBottom: "5rem", width: "100%" }}>
           <div className="trust-pill" style={{ marginBottom: "1.5rem", display: "inline-flex" }}>
             <span className="trust-pill-dot" />
-            Pearl ECO Solutions · Nairobi · Est. 2013
+            Pearl ECO Solutions · Kenya · Est. 2013
           </div>
 
           <h1
@@ -74,7 +74,7 @@ export default function Home() {
               maxWidth: "780px",
             }}
           >
-            Keeping Nairobi{" "}
+            Keeping Kenya{" "}
             <span style={{ color: "#4DBCCF", fontStyle: "italic" }}>Clean,</span>{" "}
             One Trained Team at a Time
           </h1>
@@ -142,7 +142,7 @@ export default function Home() {
               <p style={{ fontSize: "0.96rem", lineHeight: 1.85, color: "#4B5563", marginBottom: "1rem" }}>
                 Pearl ECO Solutions (formerly Pearl Cleaning Services) serves
                 residential estates, corporate offices, shopping malls,
-                institutions, and industrial sites across Nairobi.
+                institutions, and industrial sites across Kenya.
               </p>
               <p style={{ fontSize: "0.96rem", lineHeight: 1.85, color: "#4B5563", marginBottom: "2rem" }}>
                 We deliver dependable cleaning, grounds, waste, and facility

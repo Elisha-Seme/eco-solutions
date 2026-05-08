@@ -90,7 +90,7 @@ export default function Footer() {
               </span>
             </div>
             <p style={{ fontSize: "0.855rem", lineHeight: 1.8, color: "rgba(255,255,255,0.55)", margin: 0, maxWidth: "240px" }}>
-              Professional facility services for residential estates, corporates, malls, institutions, and industrial sites across Nairobi. Est. 2013.
+              Professional facility services for residential estates, corporates, malls, institutions, and industrial sites across Kenya. Est. 2013.
             </p>
           </div>
 
@@ -176,7 +176,7 @@ export default function Footer() {
               </a>
               <div style={{ display: "flex", alignItems: "center", gap: "0.6rem" }}>
                 <MapPin size={14} strokeWidth={2} style={{ color: "#4DBCCF", flexShrink: 0 }} />
-                <span style={{ fontSize: "0.82rem", color: "rgba(255,255,255,0.5)" }}>Nairobi, Kenya</span>
+                <span style={{ fontSize: "0.82rem", color: "rgba(255,255,255,0.5)" }}>Kenya</span>
               </div>
               <a
                 href="https://www.pearlcleaningservices.co.ke"
@@ -205,7 +205,7 @@ export default function Footer() {
             &copy; {new Date().getFullYear()} Pearl ECO Solutions. All rights reserved.
           </p>
           <p style={{ fontSize: "0.78rem", color: "rgba(255,255,255,0.3)", margin: 0 }}>
-            Nairobi, Kenya
+            Kenya
           </p>
         </div>
       </div>

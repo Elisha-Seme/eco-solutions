@@ -11,10 +11,10 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Pearl ECO Solutions | Facility Services, Nairobi Kenya",
+  title: "Pearl ECO Solutions | Facility Services, Kenya",
   description:
-    "Pearl ECO Solutions delivers professional cleaning, grounds maintenance, waste management, and integrated facility services for residential estates, corporates, malls, institutions, and industrial sites across Nairobi.",
-  keywords: "facility services Nairobi, cleaning services Kenya, grounds maintenance, waste management, Pearl ECO Solutions, Pearl Cleaning Services, corporate cleaning, institutional cleaning, industrial cleaning",
+    "Pearl ECO Solutions delivers professional cleaning, grounds maintenance, waste management, and integrated facility services for residential estates, corporates, malls, institutions, and industrial sites across Kenya.",
+  keywords: "facility services Kenya, cleaning services Kenya, grounds maintenance, waste management, Pearl ECO Solutions, Pearl Cleaning Services, corporate cleaning, institutional cleaning, industrial cleaning",
 };
 
 export default function RootLayout({
