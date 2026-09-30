@@ -11,9 +11,9 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Pearl ECO Solutions | Facility Services, Kenya",
+  title: "Pearl Eco Solutions | Integrated Waste Management & Environmental Solutions",
   description:
-    "Pearl ECO Solutions delivers professional cleaning, grounds maintenance, waste management, and integrated facility services for residential estates, corporates, malls, institutions, and industrial sites across Kenya.",
+    "Pearl Eco Solutions helps organisations across Kenya move from responsible waste collection to compliance, resource recovery, reporting and circularity.",
   keywords: "facility services Kenya, cleaning services Kenya, grounds maintenance, waste management, Pearl ECO Solutions, Pearl Cleaning Services, corporate cleaning, institutional cleaning, industrial cleaning",
 };
 
