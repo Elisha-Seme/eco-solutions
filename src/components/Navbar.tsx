@@ -42,13 +42,13 @@ export default function Navbar() {
         backdropFilter: transparent ? "none" : "blur(12px)",
       }}
     >
-      <div className="wrap" style={{ display: "flex", alignItems: "center", justifyContent: "space-between", height: "4.25rem" }}>
+      <div className="wrap navbar-inner" style={{ display: "flex", alignItems: "center", justifyContent: "space-between", height: "4.25rem" }}>
         {/* Wordmark */}
-        <Link href="/" style={{ textDecoration: "none" }}>
-          <span style={{ fontWeight: 800, fontSize: "1.05rem", color: transparent ? "#FFFFFF" : "#0F1923", letterSpacing: "0.06em", transition: "color 0.3s" }}>
+        <Link href="/" className="brand-lockup" style={{ textDecoration: "none" }}>
+          <span className="brand-primary" style={{ fontWeight: 800, fontSize: "1.05rem", color: transparent ? "#FFFFFF" : "#0F1923", letterSpacing: "0.06em", transition: "color 0.3s" }}>
             PEARL ECO
           </span>
-          <span style={{ fontWeight: 400, fontSize: "0.8rem", color: "#4DBCCF", letterSpacing: "0.12em", marginLeft: "0.35rem" }}>
+          <span className="brand-secondary" style={{ fontWeight: 400, fontSize: "0.8rem", color: "#4DBCCF", letterSpacing: "0.12em", marginLeft: "0.35rem" }}>
             SOLUTIONS
           </span>
         </Link>
